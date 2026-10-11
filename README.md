@@ -130,7 +130,7 @@ Install the following before running the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Tanisha02806/Robot-Path-Planning-using-A-Algorithm.git
 cd robot-path-planner
 ```
 
