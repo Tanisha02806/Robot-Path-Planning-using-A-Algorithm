@@ -277,8 +277,6 @@ Through this project, the following concepts can be practiced:
 
 **Tanisha Thakur**
 
-Computer Science Engineering — Artificial Intelligence
-
 GitHub: [Tanisha02806](https://github.com/Tanisha02806)
 
 ---
