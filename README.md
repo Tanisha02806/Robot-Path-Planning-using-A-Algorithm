@@ -1,14 +1,14 @@
-# 🤖 Robot Path Planning Using A* Algorithm
+# Robot Path Planning Using A* Algorithm
 
 An interactive web-based robot path-planning application that uses the **A* (A-Star) search algorithm** to find an optimal path from a starting point to a destination while avoiding obstacles. The application visualizes explored cells and the final path through step-by-step animation.
 
-## 📌 Project Overview
+## Project Overview
 
 Robot path planning is an important problem in robotics and artificial intelligence. A robot must determine a safe and efficient route from its initial position to a target while avoiding obstacles in its environment.
 
 This project implements the A* search algorithm on a two-dimensional grid. Users can interact with the grid, create obstacles, select start and goal positions, and visualize how the algorithm explores the environment and finds a path.
 
-## ✨ Features
+## Features
 
 - **Interactive Grid:** Visualize the environment using a 20 × 35 grid.
 - **Obstacle Placement:** Add walls to block the robot's movement.
@@ -22,7 +22,7 @@ This project implements the A* search algorithm on a two-dimensional grid. Users
 - **No-Path Detection:** Handle cases where obstacles prevent the robot from reaching the goal.
 - **REST API Integration:** Connect the React frontend to a Python FastAPI backend.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology   | Purpose                         |
 |--------------|---------------------------------|
@@ -34,7 +34,7 @@ This project implements the A* search algorithm on a two-dimensional grid. Users
 | JavaScript   | Grid interactions and animation |
 | Uvicorn      | Running the FastAPI application |
 
-## 🧠 A* Search Algorithm
+## A* Search Algorithm
 
 A* is an informed search algorithm that finds a least-cost path from a start node to a goal node by considering both the cost of reaching a node and an estimate of the remaining cost.
 
@@ -77,7 +77,7 @@ Each movement to an adjacent cell has a cost of 1.
 
 If the goal cannot be reached, the algorithm returns an empty path.
 
-## 📊 Algorithm Complexity
+## Algorithm Complexity
 
 Let:
 
@@ -90,7 +90,7 @@ With a priority queue, a standard A* implementation has a worst-case time comple
 
 For a grid with \(R\) rows and \(C\) columns, \(V=R \times C\). The actual number of cells explored depends on the obstacle layout and heuristic.
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 robot-path-planner/
@@ -117,7 +117,7 @@ robot-path-planner/
 └── README.md
 ```
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### Prerequisites
 
@@ -188,7 +188,7 @@ http://localhost:5173
 
 Keep the frontend and backend running simultaneously.
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Find Path
 
@@ -233,7 +233,7 @@ The arrays above illustrate the response format; actual explored cells and paths
 
 You can test the endpoint using the interactive Swagger documentation at `/docs`.
 
-## 🧪 Testing
+## Testing
 
 The following scenarios should be tested to verify the correctness and reliability of the application:
 
@@ -250,7 +250,7 @@ The following scenarios should be tested to verify the correctness and reliabili
 
 Record actual test outcomes before submitting the project. The table describes expected behavior, not a claim that every test has been independently verified.
 
-## 🚀 Future Improvements
+## Future Improvements
 
 Possible extensions, if required, include:
 
@@ -260,7 +260,7 @@ Possible extensions, if required, include:
 - Integration with a simulated robot environment.
 - Deployment of the frontend and backend.
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 Through this project, the following concepts can be practiced:
 
@@ -273,7 +273,7 @@ Through this project, the following concepts can be practiced:
 - Interactive visualization of algorithm execution.
 - Testing and debugging a full-stack application.
 
-## 👩‍💻 Author
+## Author
 
 **Tanisha Thakur**
 
